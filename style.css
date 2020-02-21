@@ -1,0 +1,39 @@
+body {
+    background: black;
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+}
+h1 { 
+    text-align: center;
+    margin-top: 15%;
+    padding-bottom: 15px;
+    font-size: 50px;
+}
+a {
+    text-decoration: none;
+}
+.btn {
+    margin: auto;
+    width: 250px;
+    height: 70px;
+    font-size: 30px;
+    padding-top: 23px;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+    transition: linear 0.4s;
+}
+.btn:hover {
+    border: 1px solid white;
+    background-color: black;
+    transition: linear 0.2s;
+    color: white;
+}
+.jump {
+    transition: linear 0.4s;
+    color: black;
+}
+.jump:hover {
+    color: white;
+    transition: linear 0.2s;
+}
